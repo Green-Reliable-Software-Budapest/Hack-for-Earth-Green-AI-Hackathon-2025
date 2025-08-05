@@ -1,0 +1,10 @@
+numpy
+pandas
+requests
+cdsapi
+meteostat
+codecarbon
+sentinelhub
+scikit-learn
+torch
+matplotlib
