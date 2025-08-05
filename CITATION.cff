@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Green Reliable AI for Earth Hackathon Starter"
+authors:
+  - family-names: "Reliable"
+    given-names: "Green"
+    affiliation: "Green Reliable Software Budapest"
+    # You can add an ORCID here if available
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: "2025-08-05"
+version: "1.0.0"
+repository-code: "https://github.com/Green-Reliable-Software-Budapest/ai-for-earth-hackathon-starter"
+
+# Please update these fields if a DOI becomes available in the future.
