@@ -1,0 +1,40 @@
+# General Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment / secret files
+.env
+*.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data and output directories
+/data/
+/output/
+
+# Virtual environments
+.venv/
+venv/
+
+# Model checkpoints and ML runs
+checkpoints/
+mlruns/
+
+# Miscellaneous
+*.bak
+
+# Idea or editor configs
+.idea/
+.vscode/
+
