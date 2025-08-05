@@ -1,0 +1,18 @@
+# EditorConfig helps maintain consistent coding styles
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.py]
+# Python code lines are limited to 88 characters when possible
+max_line_length = 88
+
+[*.md]
+# Do not trim trailing whitespace in Markdown to preserve intentional spacing
+trim_trailing_whitespace = false
