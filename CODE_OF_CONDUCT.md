@@ -34,7 +34,7 @@ This Code of Conduct applies within all project spaces, including GitHub issues,
 
 ## Reporting
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported confidentially by sending an email to **info@greenreliable.hu**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported confidentially by sending an email to **info@dataimmigrant.com**. All complaints will be reviewed and investigated promptly and fairly.
 
 ## Enforcement
 
