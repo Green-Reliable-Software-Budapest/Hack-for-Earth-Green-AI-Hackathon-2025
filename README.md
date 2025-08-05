@@ -1,4 +1,4 @@
-# Green Reliable AI for Earth Hackathon Starter
+#   Hack for Earth Hackathon Starter
 
 Welcome to the starter repository for the **Green Reliable AI for Earth Hackathon**, organised by the **Green‑Reliable‑Software‑Budapest** community. This repo bundles the essential resources you need to get hacking on climate solutions quickly.
 
