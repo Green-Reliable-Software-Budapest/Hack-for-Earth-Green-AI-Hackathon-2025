@@ -4,7 +4,7 @@ Welcome to the starter repository for the **Hack for Earth Green AI Hackathon 20
 
 ## Purpose
 
-In a single weekend, participants will form teams and build open-source prototypes that demonstrate how artificial intelligence can help societies adapt to or mitigate the impacts of climate change. The hackathon focuses on locally relevant innovation across sectors such as **energy**, **agriculture**, **water**, **transport**, **waste**, **health**, and **early warning systems**. Your mission is to produce a working proof-of-concept, document your approach, and share your code with the world.
+In a single month, participants will form teams and build open-source prototypes that demonstrate how artificial intelligence can help societies adapt to or mitigate the impacts of climate change. The hackathon focuses on locally relevant innovation across sectors such as **energy**, **agriculture**, **water**, **transport**, **waste**, **health**, and **early warning systems**. Your mission is to produce a working proof-of-concept, document your approach, and share your code with the world.
 
 ### Overarching Agenda
 
