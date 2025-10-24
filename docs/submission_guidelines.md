@@ -1,6 +1,6 @@
 # Submission Guidelines
 
-**Deadline**: Sunday, 31 October 2025, 18:00 CEST (72 hours after kickoff). Late submissions will not be judged.
+**Deadline**: Friday, 31 October 2025, 13:00 CEST. Late submissions will not be judged.
 
 ## What to submit
 
