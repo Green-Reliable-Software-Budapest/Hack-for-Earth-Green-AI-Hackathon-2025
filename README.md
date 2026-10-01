@@ -1,52 +1,108 @@
-#   Hack for Earth Hackathon Starter
+# Hack for Earth 2025 — Green AI
 
-Welcome to the starter repository for the **Hack for Earth Green AI Hackathon 2025**, organised by the **Green‑Reliable‑Software‑Budapest** community. This repo bundles the essential resources you need to get hacking on climate solutions quickly.
+> **2025 edition · preserved as a public archive**
+>
+> This repository contains the technical starter materials, guidance and examples from the 2025 Hack for Earth Green AI programme.
+>
+> **The current edition is [HACK4EARTH 2.0 — Greener Fields](https://www.kaggle.com/competitions/hack-4-earth-2-0-greener-fields).**
 
-## Purpose
+## About the 2025 edition
 
-In a single month, participants will form teams and build open-source prototypes that demonstrate how artificial intelligence can help societies adapt to or mitigate the impacts of climate change. The hackathon focuses on locally relevant innovation across sectors such as **energy**, **agriculture**, **water**, **transport**, **waste**, **health**, and **early warning systems**. Your mission is to produce a working proof-of-concept, document your approach, and share your code with the world.
+The 2025 programme explored two connected questions:
 
-### Overarching Agenda
+1. **How can AI systems reduce their own environmental footprint?**
+2. **How can AI be applied to environmental and climate challenges?**
 
-This year’s edition emphasises two complementary pillars:
+Participants were encouraged to build working open-source prototypes, document their technical approach and support sustainability claims with appropriate evidence.
 
-1. **Build green AI** – Design models and systems that minimise their own environmental footprint. Optimise your code and architecture to reduce electricity consumption, carbon emissions and water usage. Whenever possible, **publish before/after metrics** (e.g. kWh consumed, kg CO₂e emitted, litres of water used) for the same task to show how your improvements cut resource usage. Explore techniques such as smaller architectures, carbon‑aware scheduling, low‑power hardware and efficient data processing.
-2. **Use AI for green impact** – Apply artificial intelligence to slash emissions or boost resilience in the real world. Tackle challenges in energy, food, water, transport, health, waste or early‑warning systems, and quantify your solution’s potential impact (tonnes of CO₂ avoided, cubic metres of water saved, people protected, etc.). Clearly articulate how your prototype could contribute to climate adaptation or mitigation.
+The programme covered areas including energy, agriculture, water, transport, waste, health, Earth observation and early-warning systems.
 
-Taken together, these pillars demonstrate that AI can help fix the planet while **running without wrecking it**. We encourage you to design solutions that not only deliver positive climate impact but also account for their own resource consumption.
+## Technical focus
 
-## What’s included
+### Build greener AI
 
-* **Example notebooks** in the `notebooks/` folder to help you get started with data acquisition and simple models for various sectors (energy, air quality, weather, Earth observation, flood risk, wildfire risk, crop yield prediction, and wastewater surveillance).
-* **Guidelines and templates** in the `docs/` and `templates/` folders, covering judging criteria, submission instructions, curated dataset & API lists, and templates for model cards and pitch decks.
-* **Requirements file** listing recommended Python packages.
-* An open‑source **MIT license** so you can freely remix and extend the code.
+Design models and systems that use computing resources more deliberately.
 
-## Usage
+Examples included:
 
-1. Clone this repository and install the dependencies:
+- smaller or more efficient model architectures
+- carbon-aware scheduling
+- lower-power hardware
+- efficient data processing
+- measurement of electricity, carbon or water impacts where appropriate
 
-   ```bash
-   git clone https://github.com/Green‑Reliable‑Software‑Budapest/ai-for-earth-hackathon-starter.git
-   cd ai-for-earth-hackathon-starter
-   python3 -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
+### Use AI for environmental impact
 
-2. Explore the example notebooks in the `notebooks/` directory. You can open them with JupyterLab or VS Code. They cover different sectors and show how to fetch data from APIs such as **Open‑Meteo**, **Copernicus ERA5**, **Meteostat**, **OpenAQ**, **Electricity Maps**, **Google Earth Engine** and **Sentinel Hub**.
+Apply AI to real-world environmental or resilience challenges.
 
-3. Check out `docs/judging_rubric.md` and `docs/submission_guidelines.md` to understand how your project will be evaluated and how to prepare your final submission.
+Examples included:
 
-4. Look at `docs/datasets_apis.md` for a curated list of public datasets and APIs that are relevant to climate adaptation and mitigation, including region‑specific resources for Central Europe and Hungary.
+- energy systems
+- food and agriculture
+- water
+- transport
+- waste
+- health
+- environmental monitoring
+- early warning and climate adaptation
 
-5. Use the templates in `templates/` to document your project: create a model card that explains your AI approach and ethics considerations, and assemble a concise pitch deck for your demo.
+Teams were encouraged to distinguish clearly between **what was measured**, **what could reasonably be inferred**, and **what remained to be validated**.
 
-## Get involved
+## Repository contents
 
-* **Fork this repository** and start experimenting. Pull requests are welcome!
-* Join our Discord/Slack to connect with mentors, ask questions, and form teams.
-* Share your progress on social media with the hashtag **#AI4Earth** and tag **@GreenReliableSoftware**.
+| Area | Purpose |
+| --- | --- |
+| [Quickstart](docs/quickstart.md) | Getting started with the repository |
+| [Datasets & APIs](docs/datasets_apis.md) | Curated public data and API resources |
+| [Judging rubric](docs/judging_rubric.md) | 2025 evaluation framework |
+| [Submission guidelines](docs/submission_guidelines.md) | 2025 project submission guidance |
+| [Examples](examples/) | Small reference examples |
+| [Model card](templates/model_card.md) | Documentation template for AI systems |
+| [Pitch deck](templates/pitch_deck.md) | 2025 presentation template |
 
-## Contact
+The repository also includes an MIT licence, contribution guidance, a code of conduct and security guidance.
 
-For questions about the hackathon or this repository, please reach out to the organisers via the event page or our community channels. We can’t wait to see what you build!
+## Run locally
+
+```bash
+git clone https://github.com/Green-Reliable-Software-Budapest/Hack-for-Earth-Green-AI-Hackathon-2025.git
+cd Hack-for-Earth-Green-AI-Hackathon-2025
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+On Windows:
+
+```powershell
+.venv\Scripts\activate
+```
+
+## Status
+
+This repository represents the **2025 edition** and is no longer the active competition workspace.
+
+It remains public so that previous resources, methods and examples can continue to be inspected and reused. Small documentation corrections and preservation improvements are welcome.
+
+For the current programme, visit:
+
+**[HACK4EARTH 2.0 — Greener Fields on Kaggle →](https://www.kaggle.com/competitions/hack-4-earth-2-0-greener-fields)**
+
+## Community
+
+Hack for Earth is organised through the **Green Reliable Software Budapest** community.
+
+- [Green Reliable Software Budapest on GitHub](https://github.com/Green-Reliable-Software-Budapest)
+- [Knowledge Hub](https://grs.dataimmigrant.com/)
+- [Meetup](https://www.meetup.com/green-reliable-software-budapest/)
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+All contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Licence
+
+This repository is available under the [MIT License](LICENSE).
