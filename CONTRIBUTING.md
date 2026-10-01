@@ -1,64 +1,70 @@
-# Contributing to the Green Reliable AI for Earth Hackathon Starter
+# Contributing
 
-Thank you for your interest in improving this repository! Our aim is to build a collaborative space where hackathon participants can share resources, improve the tooling, and learn together. Contributions of any size —from typo fixes to new baseline notebooks—are welcome.
+Thank you for your interest in the Hack for Earth 2025 repository.
+
+This repository is preserved as the public technical archive of the **2025 Green AI edition**. It is no longer the active competition workspace, but small improvements that make the archive more accurate, usable or reproducible are welcome.
+
+For the current programme, visit [HACK4EARTH 2.0 — Greener Fields](https://www.kaggle.com/competitions/hack-4-earth-2-0-greener-fields).
+
+## Useful contributions
+
+We welcome:
+
+- corrections to documentation
+- fixes to broken examples
+- dependency or compatibility fixes
+- clearer setup instructions
+- corrections to dataset or API references
+- accessibility improvements
+- reproducibility improvements
+
+Please avoid using this repository to submit new hackathon projects or substantially expand the historical 2025 programme.
 
 ## Getting started
 
-1. **Fork and clone the repository**
-   ```bash
-   # fork via the GitHub web UI, then clone your fork locally
-   git clone https://github.com/<your-user>/ai-for-earth-hackathon-starter.git
-   cd ai-for-earth-hackathon-starter
-   ```
-2. **Create a virtual environment and install dependencies**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # on Windows use .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-3. **Create a new branch for your change**
-   ```bash
-   git checkout -b my-feature
-   ```
+1. Fork the repository.
+2. Clone your fork:
 
-## How to contribute
-
-- **Fix typos or improve docs** — update markdown files directly and submit a pull request.
-- **Add a new dataset/API quickstart** — extend `docs/datasets_apis.md` with a brief description, citation and example code. Please keep the formatting consistent.
-- **Add or update baseline notebooks or scripts** — create a new file in the `examples/` directory with a descriptive name. Use clear markdown headings and comments so others can follow along. Ensure any data downloads are reproducible and respect API terms of service.
-- **Improve tooling or automation** — propose enhancements to the GitHub Actions workflow or helper scripts (e.g. adding tests or linting).
-
-If you’re not sure where to start, check the **Issues** tab for open tasks or file a new issue describing your idea. We’re happy to discuss.
-
-## Coding and style guidelines
-
-- Follow [PEP 08](https://www.python.org/dev/peps/pep-0008/) for Python code. Use descriptive variable names and write docstrings for functions.
-- Use the `.gitignore` file to avoid committing large data, secrets or intermediate artefacts.
-- Run a linter such as `flake8` before committing:
-  ```bash
-  pip install flake8
-  flake8 .
-  ```
-- Keep notebooks tidy: clear output cells before committing and include enough markdown to explain the workflow.
-
-## Commit messages
-
-Write clear commit messages that explain **what** and **why** you changed something. A typical message looks like:
-
+```bash
+git clone https://github.com/<your-user>/Hack-for-Earth-Green-AI-Hackathon-2025.git
+cd Hack-for-Earth-Green-AI-Hackathon-2025
 ```
-Add example notebook for crop yield prediction
 
-The notebook demonstrates how to access ERA5 weather data via the CDS API and train a simple regression model to predict maize yield in Hungary. Includes explanations and CodeCarbon metrics.
+3. Create a virtual environment and install dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+4. Create a branch:
+
+```bash
+git checkout -b docs/clearer-quickstart
 ```
 
 ## Pull requests
 
-1. Push your branch to GitHub:
-   ```bash
-   git push origin my-feature
-   ```
-2. Open a pull request from your branch to the `main` branch of this repository.
-3. Describe your change, link any relevant issues, and tag reviewers if appropriate.
-4. A maintainer will review your PR. Please be responsive to feedback; collaboration is the goal!
+Keep changes focused and explain:
 
-All contributions must abide by the [Code of Conduct](CODE_OF_CONDUCT.md). Thank you for making this project better!
+- what changed
+- why the change is useful
+- whether it changes historical programme content or only improves documentation/tooling
+- how you tested code changes, where applicable
+
+Please do not commit secrets, large datasets, generated artefacts or credentials.
+
+For Python changes, keep code readable and reproducible. If you introduce a dependency, explain why it is needed.
+
+## Historical accuracy
+
+Because this repository documents a completed programme, avoid rewriting 2025 requirements as though they apply to later editions.
+
+Where clarification is necessary, prefer a note explaining the historical context rather than silently replacing it with current rules.
+
+## Conduct
+
+All contributions must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+Thank you for helping keep this archive useful.
